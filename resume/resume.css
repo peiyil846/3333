@@ -1,0 +1,84 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  margin: 0;
+  background-color: #dae4f3;
+  color: #333;
+}
+
+header {
+  background-color: #93bcec;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(70, 34, 34, 0.2);
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2a7ae2;
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu a{
+ width: 100px;
+ display: block;
+ padding: 10px;
+ background: #dcebff;
+ border-radius: 8%;
+ color: #2a7ae2;
+ text-decoration: none;
+}
+
+.menu a:hover{
+  background: #bedaff;
+}
+
+
+.aa a{
+ width: 100px;
+ display: block;
+ padding: 10px;
+ background: #dcebff;
+ border-radius: 8%;
+ color: #2a7ae2;
+ text-decoration: none;
+ text-align: center;
+}
+
+.aa a:hover{
+  background: #bedaff;
+}

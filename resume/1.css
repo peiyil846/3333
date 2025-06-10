@@ -1,0 +1,54 @@
+ body {
+      font-family: 'Helvetica Neue', sans-serif;/*字體*/
+      background-color: #ffffff;/*背景色*/
+      color: #3070b9;/*文字顏色*/
+      margin: 0;/*外距*/
+      padding: 0;/*內距*/
+    }
+    
+    header {
+      background-color: #5ba2ff;/*頁首背景色*/
+      color: white;/*頁首文字*/
+      padding: 40px 20px;/*上下距離*/
+      text-align: center;/*文字置中*/
+    }
+    
+    header h1 {
+      margin: 0;/*標題距離*/
+      font-size: 2.5em;/*字體大小*/
+    }
+
+    section {
+      max-width: 900px;/*寬度*/
+      margin: 40px auto;/*上下距離 置中*/
+      padding: 20px;/*內距*/
+      background-color: white; /*背景*/
+      box-shadow: 0 2px 8px rgba(45, 143, 255, 0.527);/*陰影*/
+    }
+
+    .intro p {
+      font-size: 1.2em;/*文字尺寸*/
+      line-height: 1.6em;/*行高*/
+    }
+
+    .gallery {
+      display: flex;/*相片區*/
+      flex-direction: column;/*垂直排列*/
+      gap: 30px;/*間距*/
+    }
+    
+    .gallery img{
+         width: 60%;/*圖片寬度*/
+         height: auto;/*高度*/
+         display: block;/*空隙不要*/
+         border-radius: 6px;/*圓角半徑*/
+         box-shadow: 0 2px 5px rgba(0,0,0,0.1);/*陰影*/
+    }
+
+    .text {
+        margin-top: 8px;/*文字與圖片距離*/
+        font-size: 1.3em;/*字體尺寸*/
+        color: #3070b9;
+        font-weight: bold;/*粗體*/
+    }
+

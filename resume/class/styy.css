@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);/*背景色*/
+}
+h1 {
+    width: 798px;/*標題寬*/
+    margin: 40px auto;/*上下距離 置中*/
+    padding: 30px;/*內距*/
+    border: 5px solid  #2a7ae2;/*框線*/
+    background-color: #93bcec;/*標題背景*/
+    color: #2169c7;/*標題文字*/
+}
+ table {
+      border-collapse: collapse;/*空隙*/
+      width: 100%;/*表格寬*/
+      margin-bottom: 30px;/*表格下方距離*/
+    }
+
+    th, td {
+      border: 1px solid #2169c7;/*表格框線*/
+      padding: 10px;/*內部距離*/
+      text-align: center;/*置中*/
+      width: 10em;/*字元寬度*/
+    }
+
+    th {
+      background-color: #93bcec;/*表頭背景色*/
+    }
+
+    td {
+      height: 60px; /*表格高度*/
+    }
+    
